@@ -1,6 +1,7 @@
 let calc = document.querySelector("#calc");
 let out = document.querySelector("#output");
 function calculate() {
+  console.log("leboop")
   let a = document.querySelector("#a").value;
   let b = document.querySelector("#b").value;
   let c = document.querySelector("#c").value;

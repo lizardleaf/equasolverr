@@ -10,7 +10,7 @@ function calculate() {
     let g;
     if ((a-b) == (b-c)) {
         f = -1*(a-b);
-        g = a-(-1*f);
+        g = -1(a-(-1*f));
         output.innerText = `${f}n+${g}`;
     } else if ((a-b)-(b-c) == (b-c)-(c-d)) {
         f = -1*((a-b)-(b-c))/2;

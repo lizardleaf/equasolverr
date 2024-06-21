@@ -8,15 +8,20 @@ function calculate() {
     let e = document.querySelector("#e").value;
     let f;
     let g;
+    let h;
     if ((a-b) == (b-c)) {
         f = -1*(a-b);
-        g = -1*(a-(-1*f));
+        g = a-f;
         output.innerText = `${f}n+${g}`;
-    } else if ((a-b)-(b-c) == (b-c)-(c-d)) {
-        f = -1*((a-b)-(b-c))/2;
-        g = a-(-1*((a-b)-(b-c)))/2;
-        output.innerText = `${f}n+${g}`;
-    } else {
-        output.innerText = "Equasolverr is yet to achieve the capabilities required to solve this.";
+    } else if ((c-b)-(b-c) == (b-c)-(c-d)) {
+        f =((c-b)-(b-a))*0.5;
+        if (a-f*2 != b-2*f*2) {
+            h = ((c-3*f*2)-(b-2*f2))-((b-2*f2)-(a-f*2));
+        g= a-(f+h);
+        output.innerText = `${f}n2+${h}n+${g}`;
+        } 
+       else {
+        output.innerText = "Equasolverr is yet to achieve the capabilities required to solve this.";
+        }
     }
-}
+} 
